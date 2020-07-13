@@ -1,4 +1,5 @@
 
+from utils import requests_retry_session
 import os
 
 class Questrade:
