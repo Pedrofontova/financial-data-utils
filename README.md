@@ -1,2 +1,2 @@
 # financial-data-collection
-Basic collection and processing of financial data
+Basic functions for the collection and processing of financial data
