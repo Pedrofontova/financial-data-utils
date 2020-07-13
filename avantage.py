@@ -1,5 +1,5 @@
 
-class alphavantage:
+class AlphaVantage:
     """
         AplaVantage class to make simple requests to AlphaVantage API
 
