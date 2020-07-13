@@ -224,10 +224,3 @@ class Questrade:
             raise ValueError('No exact match was found for the requested ticker')
 
         return symbol_id
-
-
-# In[4]:
-
-
-
-
