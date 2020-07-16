@@ -1,12 +1,13 @@
+from datetime import date
+import requests
+import os
 
 from pandas.tseries.holiday import USFederalHolidayCalendar
 from pandas.tseries.offsets import CustomBusinessDay
 from dateutil.relativedelta import relativedelta
 import pandas as pd
 import numpy as np
-from datetime import date
-import requests
-import os
+
 
 def requests_retry_session(retries=3, backoff_factor=0.3, status_forcelist=(500, 502, 504)):
     """
